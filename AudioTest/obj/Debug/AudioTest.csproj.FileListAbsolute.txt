@@ -1,0 +1,14 @@
+C:\Users\Remmie's\source\repos\AudioTest\AudioTest\bin\Debug\AudioTest.exe.config
+C:\Users\Remmie's\source\repos\AudioTest\AudioTest\bin\Debug\AudioTest.exe
+C:\Users\Remmie's\source\repos\AudioTest\AudioTest\bin\Debug\AudioTest.pdb
+C:\Users\Remmie's\source\repos\AudioTest\AudioTest\obj\Debug\AudioTest.csprojAssemblyReference.cache
+C:\Users\Remmie's\source\repos\AudioTest\AudioTest\obj\Debug\AudioTest.Form1.resources
+C:\Users\Remmie's\source\repos\AudioTest\AudioTest\obj\Debug\AudioTest.Properties.Resources.resources
+C:\Users\Remmie's\source\repos\AudioTest\AudioTest\obj\Debug\AudioTest.csproj.GenerateResource.cache
+C:\Users\Remmie's\source\repos\AudioTest\AudioTest\obj\Debug\AudioTest.csproj.CoreCompileInputs.cache
+C:\Users\Remmie's\source\repos\AudioTest\AudioTest\obj\Debug\AudioTest.exe
+C:\Users\Remmie's\source\repos\AudioTest\AudioTest\obj\Debug\AudioTest.pdb
+C:\Users\Remmie's\source\repos\AudioTest\AudioTest\obj\Debug\AudioTest.Dialouge.resources
+C:\Users\Remmie's\source\repos\AudioTest\AudioTest\bin\Debug\System.Speech.dll
+C:\Users\Remmie's\source\repos\AudioTest\AudioTest\obj\Debug\AudioTest.csproj.CopyComplete
+C:\Users\Remmie's\source\repos\AudioTest\AudioTest\obj\Debug\AudioTest.QueryMulti.resources

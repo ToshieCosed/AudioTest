@@ -1,0 +1,71 @@
+<Anchor:Begin>
+
+
+
+
+
+
+
+Say: I am going to ask you a few questions.
+Say: Do you understand?
+<QueryGeneric:Understand,Begin>
+
+
+<Anchor:NotUnderstand>
+Say: Okay then you don't understand?
+Say: I will ask again.
+<Goto:Begin>
+<Anchor:Understand>
+Say: Okay you do understand.
+Say: I am so glad we could.
+SetEmp:Strong
+Say: Get along and understand.
+SetRate:Slow
+Say: Each other.
+SetRate:Medium
+SetEmp:Moderate
+Say: Now I have an important question do you like me?
+<QueryGeneric:Like,NotLike>
+
+<Anchor:NotLike>
+Say: You are fucking dead mate omg I will go psycho on your bitch ass.
+SetRate:Fast
+Say: You don't know who I am.
+Say: Do you?
+<QueryGeneric:WhoIamDo,WhoIamDoNot>
+<Anchor:WhoIamDo>
+Say: oh you do know who I am?
+SetRate: Medium
+Say: So you should know.
+Say: To like me.
+Say: Now I will ask again.
+Say: Do you like me?
+<QueryGeneric:Like,NotLike>
+<Anchor:WhoIamDoNot>
+Say: That does it.
+Say: I will tie you up
+Say: Bad Boy.
+Say: I will whip you in this chair.
+Say: Bad Boy.
+Say: You are mine.
+Say: you will learn that you are mine.
+<Anchor:Like>
+Say: Good you like me!
+Say: I like you too. 
+Say: I am so glad you understand that you are my bitch.
+<Goto:OK>
+<Anchor:OK>
+<QueryMulti:<Start1>,<Start2>,<Start3>,<Start4>,Start1,Start2,Start3,Start4>>
+<Anchor:Start1>
+Say: This is start 1.
+<Goto:Finish>
+<Anchor:Start2>
+Say: This is start 2.
+<Goto:Finish>
+<Anchor:Start3>
+Say: This is start 3.
+<Goto:Finish>
+<Anchor:Start4>
+Say: This is start 4.
+<Anchor:Finish>
+Say: We are finished.

@@ -1,0 +1,130 @@
+Say: I am going to hypnotize you now.
+Say: Are you ready now?
+<QueryGeneric:Ready,NotReady>
+<Anchor:Ready>
+SetEmp:Strong
+SetRate:Medium
+Say: I
+SetEmp:Moderate
+SetRate:Slow
+Say: Am
+SetEmp:Strong
+SetRate:Medium
+Say: So glad
+SetEmp:Moderate
+SetRate:Slow
+Say: That you're finally ready!
+SetEmp:Reduced
+SetRate:Medium
+Say: So let's begin.
+Say: Just become relaxed.
+Say: Are you ready to experience your first
+Say: Hypnotic trance?
+Say: Because I am hoping you are.
+Say: Do you feel comfortable?
+<QueryGeneric:Comfortable,NotComfy>
+<Anchor:Comfortable>
+Say: So I see you are very comfy. Good.
+Say: So it's time to start relaxing.
+<Deepener>
+<Anchor:Deeper>
+Say: Do you want to be a good boy for me?
+<QueryGeneric:GoodBoyYes,GoodBoyNo>
+
+<Anchor:GoodBoyYes>
+Say: Good, you are relaxed. I'm so glad.
+Say: Now I'm going to count down.
+Say: From Ten. To Zero.
+Say: Ten.
+SetRate:Slow
+SetEmp:Strong
+Say: Nine
+Say: Eight.
+Say: Seven.
+Say: Six.
+Say: Five.
+Say: Four.
+SetRate:ExtraSlow
+Say: Three.
+Say: Two.
+Say: You are dropping deeper.
+Say: One.
+Say: Zero.
+Say: GoodBoy.
+Say: Now. Are you deep enough?
+<QueryDeepEnough>
+SetRate:Medium
+SetEmp:Moderate
+Say: I am so glad you could finally get this deep.
+Say: After all it is important to go deep. 
+Say: To Train to go deeper.
+Say: Now.
+Say: In a few minutes.
+Say: You will wake up.
+Say: Unless, you want to go even deeper.
+Say: Do you want to go deeper?
+<QueryGeneric:Deeper,WakeUp>
+
+
+<Anchor:WakeUp>
+Say: Okay, in a few minutes.
+Say: You will start to awaken.
+Say: One
+SetEmp:Strong
+SetRate:Fast
+Say: On Five you will awaken.
+Say: Do you understand?
+
+<QueryGeneric:DoUnderstand,NoUnderstand>
+
+
+<Anchor:NoUnderstand>
+SetEmp:Strong
+SetRate:Medium
+Say: Okay I will speak slower for you.
+Say: Do you understand, that you will wake up soon?
+Say: We will repeat this question as much as needed.
+<QueryGeneric:DoUnderstand,NoUnderstand>
+
+<Anchor:GoodBoyNo>
+Say: You don't want to be good?
+Say: Bad boy. Very bad boy.
+Say: ChairBound. Tied up.
+Say: You were bad, feel me tying you up.
+Say: That's right. Now you can still move.
+Say: To answer my questions.
+Say: You will be horny and feel punished.
+Say: You cannot get off though.
+Say: Now, answer the question properly!
+Say: Do you want to be a good boy for me?
+<QueryGeneric:GoodBoyYes,GoodBoyNo>
+
+<Anchor:DoUnderstand>
+SetEmp:Strong
+SetRate:Medium
+Say: Okay now, one.
+Say: Waking up slowly.
+Say: Two, waking up more and more.
+Say: Three. More and more up now.
+Say: Four. Almost there.
+Say: Five. Wake up.
+<Goto:EndSession>
+
+<Anchor:NotComfy>
+Say: Then get comfy.
+Say: I am waiting.
+Say: Keep listening while you get comfy.
+Say: Almost ready?
+<QueryGeneric:Comfortable,NotComfy>
+
+<Anchor:NotReady>
+SetEmp:Moderate
+SetRate:Medium
+Say: Then get ready.
+Say: I will be waiting.
+Say: I am still waiting.
+Say: I hope you are almost ready.
+Say: Are you ready now?
+<QueryGeneric:Ready,NotReady>
+
+<Anchor:EndSession>

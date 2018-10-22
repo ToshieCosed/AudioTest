@@ -1,0 +1,30 @@
+<Deepener>
+
+SetRate:Medium
+SetEmp:Strong
+Say: this is a test. Will this work? We will find out.
+<QueryGeneric:YesAnchor,NoAnchor>
+SetRate:Fast
+SetEmp:NotSet
+<Anchor:YesAnchor>
+Say: And this is another test.
+SetRate:Slow
+SetEmp:Reduced
+Say: And this is just slower.
+SetRate:Medium
+SetEmp:Moderate
+Say: You
+SetRate:Slow
+SetEmp:Strong
+Say: Are
+SetRate:Medium
+SetEmp:Moderate
+Say: Getting
+SetRate:Slow
+SetEmp:Reduced
+Say: Sleepy.
+<Anchor:Hello>
+Say: Hello
+<Goto:Hello>
+<Anchor:NoAnchor>
+<QueryDeepEnough>
